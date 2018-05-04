@@ -1,0 +1,95 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    margin-top: 80px;
+    background-color: white;
+}
+
+h3 {
+    font-family: 'Francois One', sans-serif;
+    font-size: 20px;
+    color: #555555;
+    padding-top: 10px;
+}
+
+.page-header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ccc;
+}
+
+.ptitle {
+    font-family: 'Francois One', sans-serif;
+    font-size: 24px;
+    color: #8dc63f;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.lead {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  color: #555555;
+}
+
+.accent {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #085dad;
+}
+
+.row {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.person {
+    text-align: center;
+}
+
+.name {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.name > a {
+    color: #777;
+}
+
+.name > a:hover {
+    color: #0094ff;
+}
+
+.author {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: #999;
+}
